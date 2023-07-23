@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "normaldamage",
+	"version": "${version}",
+	"name": "Normal Damage",
+	"description": "Mobs deal normal damage to player regardless of difficulty.",
+	"authors": [
+		"SkpC9"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/normal-damage",
+		"sources": "https://github.com/SkpC9/Normal-Damage"
+	},
+	"license": "MIT License",
+	"icon": "assets/normaldamage/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.skpc9.NormalDamage"
+		]
+	},
+	"mixins": [
+		"normaldamage.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": ">=1.18.2",
+		"java": ">=17"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
