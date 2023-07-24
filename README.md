@@ -24,3 +24,7 @@ In hard difficulty, player can starve to death, zombie can break doors, villager
 
 So hard is like the full version of the game, while normal and easy cut out some features.
 
+Dependency
+-
+
+Forge 1.12, 1.14 and 1.15 need [MixinBootstrap](https://www.curseforge.com/minecraft/mc-mods/mixinbootstrap)
